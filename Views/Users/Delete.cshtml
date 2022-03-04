@@ -1,0 +1,33 @@
+﻿@model DT191G___Moment_3._2.Models.User
+
+@{
+    ViewData["Title"] = "Radera användare";
+}
+
+<h1>Radera användare</h1>
+
+<h3>Är du säker att du vill radera användaren?</h3>
+<br>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RegTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RegTime)
+        </dd>
+    </dl>
+    <br>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UserId" />
+        <input type="submit" value="Radera" class="btn btn-danger" /> |
+        <a asp-action="Index">Tillbaka till listan</a>
+    </form>
+</div>

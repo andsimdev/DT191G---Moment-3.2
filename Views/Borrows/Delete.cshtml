@@ -1,0 +1,40 @@
+﻿@model DT191G___Moment_3._2.Models.Borrow
+
+@{
+    ViewData["Title"] = "Radera lån";
+}
+
+<h1>Radera lån</h1>
+
+<h3>Är du säker att du vill radera lånet?</h3>
+<br>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BorrowDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BorrowDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cd.CdName)
+        </dd>
+    </dl>
+    <br>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="BorrowId" />
+        <input type="submit" value="Radera" class="btn btn-danger" /> |
+        <a asp-action="Index">Tillbaka till listan</a>
+    </form>
+</div>

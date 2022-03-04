@@ -1,0 +1,38 @@
+﻿@model DT191G___Moment_3._2.Models.Cd
+
+@{
+    ViewData["Title"] = "Radera CD-skiva";
+}
+
+<h1>Radera CD-skiva</h1>
+
+<h3>Är du säker att du vill radera CD-skivan?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CdName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CdName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Artist)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Artist.ArtistName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CdId" />
+        <input type="submit" value="Radera" class="btn btn-danger" /> |
+        <a asp-action="Index">Tillbaka till listan</a>
+    </form>
+</div>

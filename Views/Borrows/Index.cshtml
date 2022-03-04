@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DT191G___Moment_3._2.Models.Borrow>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>📋 Lån</h1>
+
+<p>
+    <a asp-action="Create">Lägg till nytt lån</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BorrowDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cd.CdName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BorrowDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BorrowId">Ändra</a> |
+                    <a asp-action="Details" asp-route-id="@item.BorrowId">Detaljer</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BorrowId">Radera</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

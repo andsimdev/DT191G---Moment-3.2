@@ -1,0 +1,46 @@
+﻿@model DT191G___Moment_3._2.Models.Borrow
+
+@{
+    ViewData["Title"] = "Ändra lån";
+}
+
+<h1>Ändra lån</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BorrowId" />
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="CdId" class="control-label"></label>
+                <select asp-for="CdId" class="form-control" asp-items="ViewBag.CdId"></select>
+                <span asp-validation-for="CdId" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="BorrowDate" class="control-label"></label>
+                <input asp-for="BorrowDate" class="form-control" />
+                <span asp-validation-for="BorrowDate" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Spara" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-action="Index">Tillbaka till listan</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

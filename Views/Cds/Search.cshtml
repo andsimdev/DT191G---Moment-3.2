@@ -1,0 +1,46 @@
+@model IEnumerable<DT191G___Moment_3._2.Models.Cd>
+
+@{
+    ViewData["Title"] = "CD-skivor";
+}
+
+<h1>💿 Sökresultat</h1>
+<br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CdName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CdName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Artist.ArtistName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateTime)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CdId">Ändra</a> |
+                    <a asp-action="Details" asp-route-id="@item.CdId">Detaljer</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CdId">Radera</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

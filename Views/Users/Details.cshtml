@@ -1,0 +1,29 @@
+﻿@model DT191G___Moment_3._2.Models.User
+
+@{
+    ViewData["Title"] = "Detaljer om användare";
+}
+
+<h1>Om användaren</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RegTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RegTime)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.UserId">Ändra</a> |
+    <a asp-action="Index">Tillbaka till listan</a>
+</div>
