@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DT191G___Moment_3._2
 build_property.RootNamespace = DT191G___Moment_3._2
-build_property.ProjectDir = c:\Users\simpa\source\repos\DT191G - Moment 3.2\
+build_property.ProjectDir = C:\Users\simpa\source\repos\DT191G - Moment 3.2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\simpa\source\repos\DT191G - Moment 3.2
+build_property.MSBuildProjectDirectory = C:\Users\simpa\source\repos\DT191G - Moment 3.2
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Create.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Delete.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Details.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Edit.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Index.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Artists/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Create.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Delete.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Details.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Edit.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Index.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Borrows/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Create.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Delete.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Details.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Edit.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Index.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Search.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Cds/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2RzXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Home/Index.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/Error.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Create.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Delete.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Details.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Edit.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Index.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/_ViewImports.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/_ViewStart.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/_Layout.cshtml]
+[C:/Users/simpa/source/repos/DT191G - Moment 3.2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2mh09pylrq
